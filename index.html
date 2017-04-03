@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>grid</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./images/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/minireset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="l-home">
+  <button class="button-open-home">open panel</button>
+  <div class="back-panel-home -hidden"></div>
+  <div class="panel-home -hidden">
+    <h2 class="title-mediun">settings grid |</h2>
+    <div class="form-panel-home">
+      <label for="columns">Number columns</label>
+      <input id="columns" name="columns" type="number" placeholder="1" min="1" value="1">
+      <label for="rows">Number rows</label>
+      <input id="rows" name="rows" type="number" placeholder="1" min="1" value="1">
+      <button class="button-form-panel-home">apply</button>
+    </div>
+    <h2 class="title-mediun">add block |</h2>
+    <div class="form-panel-home">
+      <label for="positionx">Position x (column)</label>
+      <input id="positionx" name="positionx" type="number" placeholder="1" min="1" value="1">
+      <label for="positiony">Position y (row)</label>
+      <input id="positiony" name="positiony" type="number" placeholder="1" min="1" value="1">
+      <label for="width">Width (column)</label>
+      <input id="width" name="width" type="number" placeholder="1" min="1" value="1">
+      <label for="height">Height(row)</label>
+      <input id="height" name="height" type="number" placeholder="1" min="1" value="1">
+      <button class="button-form-panel-home-block">add block</button>
+    </div>
+  </div>
+  <div class="grid"></div>
+  <div class="grid-columns"></div>
+  <div class="grid-rows"></div>
+  <script src="scripts/jquery-3.2.0.min.js" type="text/javascript"></script>
+  <script src="scripts/bundle-min.js" type="text/javascript"></script>
+</body>
+
+</html>

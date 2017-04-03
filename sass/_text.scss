@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,600,700');
+
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+.paragraph {
+  letter-spacing: normal;
+  line-height: 1.88;
+}
+
+.title-big {}
+
+.title-mediun {
+  font-size: $mediun-size;
+}
+
+.title-small {}
