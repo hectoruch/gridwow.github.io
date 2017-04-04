@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 400px;
     height: 100vh;
     padding: 60px 40px;
     transition: left .3s linear;
@@ -14,7 +14,7 @@
     overflow: auto;
 
     &.-hidden {
-      left: -300px;
+      left: -400px;
     }
 
     .form-panel-home {
@@ -50,6 +50,11 @@
         font-size: $small-size;
         cursor: pointer;
 
+        &.-disable {
+          pointer-events: none;
+          cursor: default;
+          background-color: rgba($color-2, .5);
+        }
       }
     }
   }

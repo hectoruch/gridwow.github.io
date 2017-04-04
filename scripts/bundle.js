@@ -22,8 +22,10 @@ const gridColumns = $('.grid-columns');
 const gridRows = $('.grid-rows');
 const grid = $('.grid');
 const buttonForm = $('.button-form-panel-home');
+const buttonFormBlockDisable = $('.button-form-panel-home-block');
 
 $(buttonForm).click(function () {
+  $(buttonFormBlockDisable).removeClass('-disable');
   $(gridColumns).html('');
   $(gridColumns).css('grid-template-columns', 'repeat(' + $(numberColumns).val() + ', 1fr)');
   $(gridRows).html('');
