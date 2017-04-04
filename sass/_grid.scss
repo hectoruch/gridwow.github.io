@@ -12,7 +12,7 @@
 
   .grid-block {
     padding: 20px;
-    background-color: $color-1;
+    background-color: $color-2;
     color: $white;
   }
 }
@@ -48,6 +48,6 @@
 
   .row {
     width: calc(100vw - 400px);
-    background-color: rgba($color-2, .2);
+    background-color: rgba($color-1, .2);
   }
 }

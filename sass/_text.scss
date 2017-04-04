@@ -1,17 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
 
 $primary-font: 'Montserrat', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
+$third-font: 'Coming Soon', cursive;
 
 .paragraph {
   letter-spacing: normal;
   line-height: 1.88;
 }
 
-.title-big {}
+.title-big {
+  font-size: $big-size;
+  line-height: 1.88;
+}
 
 .title-mediun {
   font-size: $mediun-size;
+  line-height: 1.88;
 }
 
-.title-small {}
+.title-small {
+  font-size: $small-size;
+}
+
+.hand-text {
+  font-family: $third-font;
+  letter-spacing: normal;
+  line-height: 1.88;
+}

@@ -1,4 +1,4 @@
-.l-home {
+.l-grid {
   .panel-home {
     position: fixed;
     top: 0;
@@ -51,6 +51,16 @@
         cursor: pointer;
 
       }
+    }
+  }
+
+  .hand-text {
+    position: absolute;
+    top: 25px;
+    left: 160px;
+
+    &.-hidden {
+      display: none;
     }
   }
 
